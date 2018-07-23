@@ -16,7 +16,6 @@
 title: Publication Ranking
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-cription: >- # this means to ignore newlines until "baseurl:"
   This site is for publication ranking.
 baseurl:  "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

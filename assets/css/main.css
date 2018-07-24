@@ -2494,7 +2494,7 @@
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: left;
+		text-align: center;
 	}
 
 	header p {
@@ -2520,7 +2520,7 @@
 	}
 
 	header p {
-		color: #ccc000;
+		color: #bbb;
 	}
 
 /* Table */

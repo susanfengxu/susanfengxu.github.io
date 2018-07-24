@@ -4466,7 +4466,7 @@
 					order: 1;
 					width: 100%;
 					overflow: auto;
-					background: none !important;
+				/*	background: none !important;*/
 				}
 
 					.post .image img {

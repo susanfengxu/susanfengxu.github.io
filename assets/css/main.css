@@ -3707,12 +3707,12 @@
 			width: 50%;
 			display: block;
 			margin: 0;
-			position: relative;
+			position: fixed;
 			overflow: hidden;
-			background-color: #ffffff;
+			/*background-color: #ffffff;
 			background-size: cover;
 			background-position: center;
-			background-repeat: no-repeat;
+			background-repeat: no-repeat;*/
 		}
 
 			.post .image img {
@@ -4466,7 +4466,7 @@
 					order: 1;
 					width: 100%;
 					overflow: auto;
-					background: none !important;
+					/*background: none !important;*/
 				}
 
 					.post .image img {

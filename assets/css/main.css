@@ -4466,7 +4466,7 @@
 					-webkit-order: 1;
 					-ms-order: 1;
 					order: 1;
-					width: 100%;
+					width: auto;
 					height: auto;
 					overflow: auto;
 					background: none !important;

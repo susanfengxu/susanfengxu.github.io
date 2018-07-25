@@ -1,88 +1,94 @@
-<!DOCTYPE HTML>
-<!--
-	Publication Ranking Page
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Publication Ranking Page</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
 
-		<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="logo"><strong>Publication Ranking Page</strong></a>
-			</header>
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
 
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Publication Ranking Page</b></h1>
+  <p>This page is for Publication Ranking Project done by <span class="w3-tag">Susan Feng Xu</span></p>
+</header>
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<h1>This page is for Publication Ranking Project done by Susan Feng Xu<br />
-					</h1>
-					<ul class="actions">
-						<li><a href="#one" class="button alt scrolly big">Continue</a></li>
-					</ul>
-				</div>
-			</section>
+<!-- Grid -->
+<div class="w3-row">
 
+<!-- Blog entries -->
+<div class="w3-container w3-center">
+  <!-- Blog entry 1-->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
+    <div class="w3-container w3-left-align">
+      <h3><b>Quantifying Research Publication</b></h3>
+      <h5>Title description</h5>
+    </div>
 
-
-		<!-- One -->
-			<article id="one" class="post style1">
-
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2>Quantifying Research Publication</h2>
-						</header>
-						<p>
-I would like to propose a project that gives you a quantitative analysis of research publication in graduate programs. In the end, I plan to give a rank of graduate programs based on quantity and citation of research publication. Using the information provided by this project, one can make smarter decisions on where and what to pursue for a PhD degree. 
+    <div class="w3-container w3-left-align">
+      <p>I would like to propose a project that gives you a quantitative analysis of research publication in graduate programs. In the end, I plan to give a rank of graduate programs based on quantity and citation of research publication. Using the information provided by this project, one can make smarter decisions on where and what to pursue for a PhD degree. 
 Making up your mind to take on the PhD journey could be difficult.  You might wonder which field of research you would be interested in and good at. You might even struggle more which program is the best fit for you. One thing you need to keep in mind that there are many world known professors in state universities other than Ivy Leagues. State university is easier to get in! Another important question is what direction of research you would spend 5 to 10 years to study. You need to choose something that generates publication relatively fast. That way you spend less time on struggling if you could graduate.
 Here, the solution I can provide is to have a list of accumulated number of publication/citation over years per university. From that plot, you would see research strength from different programs. I will provide year to year number of publications/citations from sub-fields, and then one can see the fast growing fields.  
-Methods
-							</p>
-						<p>
-3 million articles’ bibliography was downloaded from PubMed in html format. I extract the article title, year of publication, name of publishing journal, first and last author names as well as affiliation were summarized into a csv file. Total numbers of publication over years are counted per university. Sub-field definition uses google scholar metric. Journals are categorized into subfields, consequently articles published in the journal is assigned to the same subfield. Year to year publication was counted in each subfield per university. Citation information will be done by downloading articles that are available on PubMed Centeral. Reference list was extracted paper by paper. Similar information will be summarized for citation.
+Methods</p>
+<p>3 million articles bibliography was downloaded from PubMed in html format. I extract the article title, year of publication, name of publishing journal, first and last author names as well as affiliation were summarized into a csv file. Total numbers of publication over years are counted per university. Sub-field definition uses google scholar metric. Journals are categorized into subfields, consequently articles published in the journal is assigned to the same subfield. Year to year publication was counted in each subfield per university. Citation information will be done by downloading articles that are available on PubMed Centeral. Reference list was extracted paper by paper. Similar information will be summarized for citation.
 Results</p>
-<p>•	Ranks of universities in subfields will be provided based on number of publication/citation.</p>
-<p>•	Yearly changes of publication/citation in subfields will be illustrated and indicate the development of research interests.</p>
-<p>•	Portioned publications in subfields will be summarized per program, which illustrating the strength of the program.</p>
-<p>•	Top occurrence of key words in subfields would be summarized for hot topics of research</p>
+<p>	Ranks of universities in subfields will be provided based on number of publication/citation.</p>
+<p>	Yearly changes of publication/citation in subfields will be illustrated and indicate the development of research interests.</p>
+<p>	Portioned publications in subfields will be summarized per program, which illustrating the strength of the program.</p>
+<p> Top occurrence of key words in subfields would be summarized for hot topics of research</p>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry 2-->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container w3-left-align">
+      <h3><b>Figure1</b></h3>
+      <h5>Title description</h5>
+    </div>
+
+    <div class="w3-container w3-left-align">
+      <p>figure1</p>
+    </div>
+  </div>
+  
+    <!-- Blog entry 3-->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container w3-left-align">
+      <h3><b>Figure1</b></h3>
+      <h5>Title description</h5>
+    </div>
+
+    <div class="w3-container w3-left-align">
+      <p>figure1</p>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
 
 
-					</div>
-				</div>
-								<div class="image">
-					<img src="images/figure1.png" alt="" data-position="75% center" />
-				</div>
-			</article>
-			
-		<!-- Two -->
-			<article id="two" class="post style1">
 
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2>two</h2>
-						</header>
-						<p>two</p>
-					</div>
-				</div>
-								<div class="image">
-					<img src="images/figure2.png" alt="" data-position="75% center" />
-				</div>
-			</article>
+<!-- END GRID -->
+</div><br>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="copyright">
-					&copy; Publication Ranking
-				</div>
-			</footer>
+<!-- END w3-content -->
+</div>
 
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
-	</body>
+</body>
 </html>
+
